@@ -22,9 +22,9 @@ fun main() {
                 scanner.nextLine()
                 print("Masukkan nama karakter: ")
                 val nama = scanner.nextLine()
-                print("Masukkan strength karakter: ")
+                print("Masukkan strength karakter (angka): ")
                 val strength = scanner.nextInt()
-                print("Masukkan speed karakter: ")
+                print("Masukkan speed karakter (angka): ")
                 val speed = scanner.nextInt()
 
                 daftarKarakter.add(Karakter(hitungId++, nama, strength, speed))
