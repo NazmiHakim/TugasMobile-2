@@ -47,9 +47,9 @@ fun main() {
                 karakter?.let {
                     print("Masukkan nama baru: ")
                     it.nama = scanner.nextLine()
-                    print("Masukkan strength baru: ")
+                    print("Masukkan strength baru (angka): ")
                     it.strength = scanner.nextInt()
-                    print("Masukkan speed baru: ")
+                    print("Masukkan speed baru (angka): ")
                     it.speed = scanner.nextInt()
 
                     println("Karakter berhasil diperbarui!")
