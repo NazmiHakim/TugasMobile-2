@@ -78,7 +78,7 @@ fun main() {
                 } ?: println("Karakter tidak ditemukan.")
             }
             6 -> {
-                println("Terima kasih! Keluar dari program.")
+                println("Terima kasih! Keluar dari program....")
                 return
             }
             else -> println("Pilihan tidak valid, coba lagi.")
