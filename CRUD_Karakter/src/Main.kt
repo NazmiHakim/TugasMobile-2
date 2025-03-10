@@ -15,7 +15,7 @@ fun main() {
         println("4. Hapus Karakter")
         println("5. Tampilkan Detail Karakter")
         println("6. Keluar")
-        print("Pilih menu: ")
+        print("Pilih menu (angka): ")
 
         when (scanner.nextInt()) {
             1 -> {
